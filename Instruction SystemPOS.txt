@@ -1,0 +1,23 @@
+1.ProductDB // Opens the Database Window where u can Add/Delete/Update or search for products.
+2.Sales // Opens the Sales Window where u can filter all sales, between Dates, by Name or ID.
+3.Settings // Opens the Settings Window where u can Change the Program Name and Logo, and also the Scale Barcode Input.
+4.Info // Opens the Info Settings where u can find the Author and Contact to provide you Support.
+5.Refresh Database // After Adding/Editing new Products to the ProductDB, please Refresh the DB to update any new changes to take effect.
+6.CashBack Input // Type in the amount of money the customer gave you in cash, so the program calculates the Change u have to give back to the customer
+
+7.Barcode Input // Barcode Input has multiple functions.
+ a)- Barcode Reader, Reads the Barcode, searches the Database and does the Calculation if it's a Barcode from the Scale.
+ b)- Add Products by Name (For Products that have no BarCode).. Type in the first leter and the search starts atomatically in the database, results are seen inside the listbox.
+   * Press Right Arrow to jump to the ListBox and use the Up/Down Arrow Keys to navigate thru the list.
+   * Press Enter to add the selected Item to the DatagridView, and go on with the next product.
+ c)- Multiply the last product ( If you just added a Product, and do not want to waste time scanning it 12 times) just press 12, and the program will multiply it automatically, Highest Multipled Value is 99.
+ d)- Backspace, the Backspace is used to delete the last Added Product
+
+8.ListBox // lists all products inside the ProductDB wich matches with the input from the Barcode Input.
+9.Manual Input // is for Products that aren't registred in the ProductDB yet. ID,Barcode,Name are shown as "MANUAL" since its a manual Input.
+  * Manual Inputs must have always a Decimal ex.: 1.05$ or 13.38$.
+10.DataGridView // shows the actual list of selling products.. Products are added via barcode,name etc..
+11.ID // For every new Customer a Unique ID is generated, so you can keep track of all products bought by 1 customer.
+12.Color Buttons // as Some employees may like a different Color for the TOTAL PRICE so its also much clearer for the customer to see, The Program Provides 3 buttons, wich will change the Background to LighGreen,LightRed, or set it back to Default.
+
+
